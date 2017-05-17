@@ -6,13 +6,13 @@ import java.util.Date;
  * Created by ismile on 5/12/2017.
  */
 
-public class EarthquakeInfo {
+public class Earthquake {
     private double mMagnitude;
     private String mLocation;
     private long  mTimeinMil;
     private String mUrl;
 
-    public EarthquakeInfo(double magnitude, String location, long time, String url) {
+    public Earthquake(double magnitude, String location, long time, String url) {
         super();
         mMagnitude=magnitude;
         mLocation=location;
